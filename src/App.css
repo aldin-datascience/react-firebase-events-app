@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Consolas sans-serif;
+  background-image: url("events.jpg");
+}
+
+.signuptext {
+  margin: 2vh;
+  font-size: 5vh;
+}
+
+.signuplabels {
+  margin: 2vh;
+  font-weight: bold;
+}
+
+.left-most {
+  margin-top: 2vh;
+  margin-left: 2vh;
+  font-weight: bold;
+}
+
+.linlout {
+  margin-top: 2vh;
+  margin-left: 2vh;
+  font-weight: bold;
+}
+
+.signupinputs {
+  margin-left: 2vh;
+  width: 85vh;
+}
+
+.allevents {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.lgout {
+  font-weight: bold;
+  margin: 1vh;
+  display: inline-flex;
+  opacity: 0.8;
+  color: lightcyan;
+}
+
+.myerror {
+  margin-left: 2vh;
+  display: inline-block;
+  color: red;
+}
+
+.eventform {
+  margin: 10px;
+}
+
+.pictures {
+  width: 100%;
+  padding: 5%;
+}
+
+.eventcard {
+  text-align: center !important;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+  border: 1px solid black;
+}
+
+#eventHeading {
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-bottom: 2vh;
+  display: block;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.browse {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btnlist {
+  font-weight: bold;
+  margin: 1%;
+}
+
+.eventInfo {
+  margin: 2vh;
+  display: block;
+  font-size: 95%;
+  font-weight: bold;
+}
+
+#footer {
+  margin-top: 5%;
+  padding: 5%;
+  color: black;
+  border: 1px solid black;
+  background-color: gainsboro;
+}
+
+.myInfo {
+  font-weight: bold;
+  font-size: 80%;
+}
+
+#top {
+  font-weight: bold;
+  float: right;
+}
+
+#loggedin {
+  display: inline-flex;
+  margin-left: 60vh;
+  white-space: pre;
+}
+
+#upcomingHeading {
+  margin-bottom: 4vh;
+}
+
+.going{
+  border: 1px solid lightgray;
+}
